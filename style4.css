@@ -1,0 +1,306 @@
+.topnav {
+  background-color: #7e0cf5;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #7e0cf5
+  color: black;
+}
+.topnav a.active {
+  background-color: #9b45e4;
+  color: white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-family: "Times New Roman", Times, serif;
+}
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 3vh;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1vw;
+  font-family: monospace;
+}
+a:hover{
+  background-color: #fa697c;
+}
+@media only screen and (max-width: 500px) {
+  ul{
+    flex-direction: column;
+  }
+  li{
+    margin: 0;
+  }
+ a{
+    display: block;
+  }
+}
+.class {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e13a9d;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+    background-color: #7e0cf5;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ff677d;
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    font-style: italic;
+    color: #35013f;
+}
+
+section h2 {
+    text-decoration: underline;
+    font-size: 2.5em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+section h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+    text-decoration: underline;
+}
+p{
+  font-size: 40px
+
+}
+p.standout {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+li {
+  font-size: 40px;
+  color: #35013f;
+  }
+  #interest h5 {
+  animation-duration: 6s;
+  animation-name: slidein;
+}
+#hero h1 {
+animation-duration: 6s;
+animation-name: slidein;
+}
+#interest h1{
+animation-duration: 6s;
+animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#interest h5{
+  font-style: italic;
+  font-size: 60px;
+  color: #35013f;
+}
+#interest h1{
+  font-style: italic;
+  font-size: 60px;
+  color: #35013f;
+}
+#interest p{
+  font-style: italic;
+}
+#interest p{
+animation-duration: 6s;
+animation-name: slidein;
+}
+#interest li{
+  font-style: italic;
+}
+
+#contact h1{
+  font-style: italic;
+  font-size: 60px;
+  color: #35013f;
+}
+#contact h1{
+animation-duration: 6s;
+animation-name: slidein;
+}
+#contact p {
+ font-style: italic;
+  font-size: 50px
+  color: #35013f;
+}
+#contact p{
+animation-duration: 6s;
+animation-name: slidein;
+}
+#contact li {
+  font-style: italic;
+  font-size: 40px;
+  color: #35013f;
+}
+#contact li{
+animation-duration: 6s;
+animation-name: slidein;
+}
+#contact a {
+  font-style: italic;
+  text-decoration-color: #7e0cf5
+}
+#contact a {
+animation-duration: 6s;
+animation-name: slidein;
+}
+#contact .FB {
+  width: 50px;
+  border-radius: 50%;
+  color: #35013f;
+}
+#contact .IG {
+  width: 50px;
+  border-radius: 50%;
+
+}
+#contact .LINK {
+  width: 50px;
+  border-radius: 50%;
+
+
+}
+#contact p{
+  font-style: italic;
+  color: #35013f;
+  font-size: 50px;
+  animation-duration: 6s;
+  animation-name: slidein;
+}
+section h2 ul{
+  font-size: 60px;
+}
+
+header a {
+    background-color: #7e0cf5;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+  background-color: #7e0cf5;
+}
+#music h1{
+  font-size: 60px;
+  font-style: italic;
+  color: #35013f;
+  animation-duration: 6s;
+  animation-name: slidein;
+}
+#movies h1{
+  font-size: 60px;
+  font-style: italic;
+  color: #35013f;
+  position: sticky;
+  animation-duration: 6s;
+  animation-name: slidein;
+}
+
+
+#hero {
+    background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/44197057_2142504259107695_5051374679650992128_o.jpg?_nc_cat=107&_nc_ohc=ExQ3i4K-pjUAX_ReBC7&_nc_ht=scontent-iad3-1.xx&oh=d606fcb835d2fea477aea3360a418c6d&oe=5EC782A3');
+  }
+
+#interest {
+    background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://scontent.fphl2-1.fna.fbcdn.net/v/t1.0-9/44143609_713699578989939_1361414107806302208_o.jpg?_nc_cat=103&_nc_ohc=ioCsvai7eT8AX9qCdTt&_nc_ht=scontent.fphl2-1.fna&oh=ffa5a9567128f9dfbe383f5397b9b4e5&oe=5ED9BD4C');
+  }
+
+#contact {
+    background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://scontent.fphl2-1.fna.fbcdn.net/v/t1.0-9/44169714_714784608881436_8601197658402455552_o.jpg?_nc_cat=109&_nc_ohc=QvRhddVkeTYAX8OwoNB&_nc_ht=scontent.fphl2-1.fna&oh=adac9fcc78b7842173c691fffe6c70fc&oe=5EC8620F');
+  }
+
+#music {
+  background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://wallpaperfm.com/img/original/1/f/0/5688.jpg');
+}
+#movies {
+  background-image: linear-gradient(rgba(125,255,255,0.55),rgba(125,255,255,0.55)), url('https://s3.amazonaws.com/webassets.ticketmob.com/TM/images/ShowPosters/C2EAF93D-F52B-28AD-3C87A04876B3E6DE.jpg');
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background: #1089ff
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8105d8;
+  border-radius: 10px;
+}
